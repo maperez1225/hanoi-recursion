@@ -13,9 +13,9 @@ public class Main{
 		FileWriter fw = new FileWriter("data/Hanoi_output.txt");
 		BufferedReader br = new BufferedReader(fr);
 		String line = br.readLine();
-		int cases = Integer.parseInt(line);
+		int m = Integer.parseInt(line);
 		bw = new BufferedWriter(fw);
-		for (int i = 0; i < cases; i++){
+		for (int i = 0; i < m; i++){
 			line = br.readLine();
 			int disks = Integer.parseInt(line);
 			towers = new int[3];
